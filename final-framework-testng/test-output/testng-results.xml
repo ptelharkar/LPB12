@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19489" started-at="2019-11-21T03:57:34Z" finished-at="2019-11-21T03:57:53Z">
+  <suite name="Default suite" duration-ms="48775" started-at="2019-11-21T04:55:22Z" finished-at="2019-11-21T04:56:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19489" started-at="2019-11-21T03:57:34Z" finished-at="2019-11-21T03:57:53Z">
-      <class name="com.training.sanity.tests.FilterOrdersList">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.FilterOrdersList@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="25" started-at="2019-11-21T09:27:34Z" finished-at="2019-11-21T09:27:34Z">
+    <test name="Default test" duration-ms="48775" started-at="2019-11-21T04:55:22Z" finished-at="2019-11-21T04:56:11Z">
+      <class name="com.training.sanity.tests.DeleteOrder">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.DeleteOrder@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="47" started-at="2019-11-21T10:25:22Z" finished-at="2019-11-21T10:25:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.FilterOrdersList@5c7fa833]" name="setUp" is-config="true" duration-ms="9773" started-at="2019-11-21T09:27:34Z" finished-at="2019-11-21T09:27:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.DeleteOrder@5c7fa833]" name="setUp" is-config="true" duration-ms="28285" started-at="2019-11-21T10:25:22Z" finished-at="2019-11-21T10:25:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="filterList()[pri:0, instance:com.training.sanity.tests.FilterOrdersList@5c7fa833]" name="filterList" duration-ms="5717" started-at="2019-11-21T09:27:43Z" finished-at="2019-11-21T09:27:49Z">
+        <test-method status="PASS" signature="deleteorderTest()[pri:0, instance:com.training.sanity.tests.DeleteOrder@5c7fa833]" name="deleteorderTest" duration-ms="16333" started-at="2019-11-21T10:25:50Z" finished-at="2019-11-21T10:26:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- filterList -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.FilterOrdersList@5c7fa833]" name="tearDown" is-config="true" duration-ms="3942" started-at="2019-11-21T09:27:49Z" finished-at="2019-11-21T09:27:53Z">
+        </test-method> <!-- deleteorderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.DeleteOrder@5c7fa833]" name="tearDown" is-config="true" duration-ms="4077" started-at="2019-11-21T10:26:07Z" finished-at="2019-11-21T10:26:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.FilterOrdersList -->
+      </class> <!-- com.training.sanity.tests.DeleteOrder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
