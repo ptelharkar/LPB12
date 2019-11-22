@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.DeleteOrder">
+      <class name="com.training.sanity.tests.ChangeOrder">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="changeOrderTest"/>
           <include name="setUpBeforeClass"/>
-          <include name="deleteorderTest"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.DeleteOrder -->
+      </class> <!-- com.training.sanity.tests.ChangeOrder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
